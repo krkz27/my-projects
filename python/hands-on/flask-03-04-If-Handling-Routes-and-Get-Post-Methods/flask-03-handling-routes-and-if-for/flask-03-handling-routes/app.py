@@ -8,7 +8,7 @@ app = Flask(__name__)
 # and assign route of no path ('/')
 @app.route('/')
 def home():
-    return '<h1> Ali bunu goruyosan senin AQ </h1>'
+    return '<h1> Hello This is my mainpage </h1>'
 
 # Create a function named about which returns a formatted string '<h1>This is my about page </h1>' 
 # and assign to the static route of ('about')
