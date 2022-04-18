@@ -107,5 +107,5 @@ resource "github_repository_file" "dbendpoint" {
   file = "dbserver.endpoint"
   repository = "phonebook"
   overwrite_on_create = true
-  branch = "master"
+  branch = "main"
 }
